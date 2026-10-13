@@ -17,7 +17,7 @@ class _Tab3ScreenState extends State<Tab3Screen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('WinAura • Cycles'),
+        title: const Text('Win • Cycles'),
       ),
       body: ListView(
         padding: const EdgeInsets.all(16),
