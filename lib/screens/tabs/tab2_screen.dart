@@ -36,10 +36,10 @@ class _Tab2ScreenState extends State<Tab2Screen> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
-                _buildFilterChip('All', 0),
-                _buildFilterChip('Active', 1),
-                _buildFilterChip('Popular', 2),
-                _buildFilterChip('Archived', 3),
+                _buildFilterChip('Rain', 0),
+                _buildFilterChip('Waves', 1),
+                _buildFilterChip('White Noise', 2),
+                _buildFilterChip('Binaural', 3),
               ],
             ),
           ),
@@ -70,7 +70,7 @@ class _Tab2ScreenState extends State<Tab2Screen> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('Sounds Item #${idx + 101}', style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+                      Text(const ['Deep Forest Stream', 'Midnight Rainfall', 'Theta Wave 6Hz', 'Soft Ocean Drift', 'Cosmic Starlight'][idx], style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
                       const SizedBox(height: 4),
                       Text('Category: Tier ${idx + 1} • Updated 2h ago', style: const TextStyle(color: Colors.white60, fontSize: 12)),
                     ],

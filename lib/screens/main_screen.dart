@@ -52,7 +52,6 @@ class _MainScreenState extends State<MainScreen> {
           selectedIcon: const Icon(Icons.bar_chart, color: AppTheme.primaryColor),
           label: 'Analytics',
         ),
-
         ],
       ),
     );
